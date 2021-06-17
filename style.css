@@ -1,0 +1,169 @@
+body
+{
+    margin: 0 0 5vw 0!important;
+    color: #fff;
+    background-color: #2b2b2b;
+    font-size: 20px;
+}
+#navwrapper
+{
+    display: flex;
+    position: sticky;
+    top: 100px;
+    transform: translateY(-100px);
+    align-items: center;
+    z-index: 2;
+}
+#pe
+{
+    flex-basis: 20%;
+    
+    font-size: 40px;
+    margin: 0 10px;
+    display: none;
+    white-space: nowrap;
+}
+nav
+{
+    flex-basis: 95%;
+    display: flex;
+    justify-content: center;
+}
+.menuboxdiv
+{
+    flex-basis: 11%;
+    text-align: center;
+    padding: 25px 0;
+    transition: all 1s ease;
+}
+.onbanner
+{
+    flex: 1;
+}
+header
+{
+    width: 100%;
+}
+header img
+{
+    width: 100%;
+    opacity: 40%;
+}
+header p
+{
+    width: 100%;
+    position: absolute;
+    top: 10vw;
+    text-align: center;
+    z-index: 1;
+    font-size: 5vw;
+}
+header hr
+{
+    height: 2px;
+    border: none;
+    background-color: #04f0d0;
+    width: 60%;
+    position: absolute;
+    left: 20%;
+    top: 20.7vw;
+    opacity: 100%;
+}
+header p#opis
+{
+    top: 20vw;
+    font-size: 2vw;
+}
+.menuboxdiv:hover
+{
+    background-color: #04f0d157;
+}
+article
+{
+    margin: 20px 0;
+    position: relative;
+    top: -78px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+article#glowna
+{
+    font-size: 50px;
+}
+article p
+{
+    margin: 0;
+}
+.opis
+{
+    font-size: 30px;
+}
+#groupchoose
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.group
+{
+    padding: 18%;
+    flex-basis: 40%;
+    text-align: center;
+    font-size: 50px;
+    background-color: #04f0d157;
+    /* //#00ffbfb2 */
+    margin: 5vw;
+}
+.group:hover
+{
+    background-color: #00ffbfb2 ;
+
+}
+#k2B
+{
+    display: none;
+}
+#k2D
+{
+    display: none;
+}
+#k1P
+{
+    display: none;
+}
+.sitelinks
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.miniWrapper
+{
+    width: 33vw;
+    height: 23vw;
+    overflow: hidden;
+}
+.miniWrapper:hover
+{
+    opacity: 60%;
+}
+iframe
+{
+    width: 300%;
+    height: 1000px;
+    transform: scale(0.35);
+    pointer-events: none;
+    cursor: pointer;
+    position: relative;
+    left: -100%;
+    top: -300px;
+}
+#gr1
+{
+    display: none;
+}
+#gr2
+{
+    display: none;
+}

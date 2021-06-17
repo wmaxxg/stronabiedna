@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <p>Gdyby Mickiewicz Pisał Bloga</p>
+        <hr>
+        <p id="opis">Czyli nasze strony</p>
+        <img src="banner.jpg">
+    </header>
+    <div id="navwrapper">
+        <p id="pe">Gdyby go pisał</p>
+        <nav>
+            <div class="menuboxdiv onbanner">Główna</div>
+            <div class="menuboxdiv onbanner">Klasa 2D</div>
+            <div class="menuboxdiv onbanner">Klasa 2B</div>
+            <div class="menuboxdiv onbanner">Klasa 1P</div>
+        </nav>
+    </div>
+    <article id="glowna">
+        <p> Witaj, <br>na tej stronie znajdziesz arcydzieła sztuki tworzenia stron internetowych w wykonaniu klas 2D, 2B oraz 1P.</p><p class="opis">Aby zobaczyć strony wybierz z menu powyżej, a następnie grupę. Wyświetlą się wszystkie strony w grupie z danej klasy</p>
+    </article>
+    <article id="k2D">
+        <div id="groupchoose">
+            <div class="group" onclick="chgGrp(1,'2d')">GR1</div>
+            <div class="group" onclick="chgGrp(2,'2d')">GR2</div>
+        </div>
+    </article>
+    <article id="k2B">
+        <div id="groupchoose">
+            <div class="group" onclick="chgGrp(1,'2b')">GR1</div>
+            <div class="group" onclick="chgGrp(2,'2b')">GR2</div>
+        </div>
+    </article>
+    <article id="k1P">
+        <div id="groupchoose">
+            <div class="group" onclick="chgGrp(1,'1p')">GR1</div>
+            <div class="group" onclick="chgGrp(2,'1p')">GR2</div>
+        </div>
+    </article>
+</body>
+<script src="main.js"></script>
+</html>
