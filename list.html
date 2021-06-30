@@ -4,19 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="list.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <p>Gdyby Mickiewicz Pisał Bloga</p>
-        <hr>
-        <p id="opis">Czyli arcydzieła sztuki tworzenia stron internetowych</p>
-    </header>
     <div id="navwrapper">
-        <p id="pe">Gdyby go pisał</p>
+        <p id="pe" onclick="location.href='/'">Wróć na główną</p>
         <div id="slimwrap">
             <div class="menu-btn"></div>
         </div>
@@ -29,9 +24,21 @@
             </ul>
         </nav>
     </div>
-    <article>
-        <p> Witaj, <br>na tej stronie znajdziesz arcydzieła sztuki tworzenia stron internetowych w wykonaniu klas 2D, 2B oraz 1P.</p>
+    <article id="groups">
+        <p>Wybierz grupę</p>
+        <div id="gr1">
+            <img src="group.png">
+            <p>1</p>
+        </div>
+        <div id="gr2">
+            <img src="group.png">
+            <p>2</p>
+        </div>
+    </article>
+    <article id="list">
+
     </article>
 </body>
-<script src="main.js"></script>
+<script src="baseimport.js"></script>
+<script src="list.js"></script>
 </html>

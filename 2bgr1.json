@@ -1,0 +1,18 @@
+[
+    {"Name":"Dawid Cempulik","Address":"https://dawid330.github.io/index.html","img":"miniaturki/DawidCempulik.jpg"},
+    {"Name":"Jakub Darul","Address":"http://schropek.cba.pl/","img":"miniaturki/JakubDarul.jpg"},
+    {"Name":"Milena Kaletka","Address":"https://rasypsow123.000webhostapp.com/","img":"miniaturki/MilenaKaletka.jpg"},
+    {"Name":"Marcin Kampe","Address":"https://marcinkampe.000webhostapp.com/","img":"miniaturki/MarcinKampe.jpg"},
+    {"Name":"Michał Kierzkowski","Address":"https://mkierzkowski.000webhostapp.com/","img":"miniaturki/MichalKierzkowski.jpg"},
+    {"Name":"Michał Kucharski","Address":"https://michalkuch.000webhostapp.com/","img":"miniaturki/MichalKucharski.jpg"},
+    {"Name":"Mateusz Lamla","Address":"https://mateuszlamla.000webhostapp.com/","img":"miniaturki/MateuszLamla.jpg"},
+    {"Name":"Mateusz Markowski","Address":"https://mmarkowski2021.000webhostapp.com/","img":"miniaturki/MateuszMarkowski.jpg"},
+    {"Name":"Ania Olszak","Address":"https://hope-any.github.io/olszakania/","img":"miniaturki/AniaOlszak.jpg"},
+    {"Name":"Daniel Pająk","Address":"https://danielpajak.000webhostapp.com/","img":"miniaturki/DanielPajak.jpg"},
+    {"Name":"Robert Rzeźniczek","Address":"https://rzezniczekrob2010.000webhostapp.com/","img":"miniaturki/RobertRzezniczek.jpg"},
+    {"Name":"Michał Sobota","Address":"https://bysiur.000webhostapp.com/","img":"miniaturki/MichalSobota.jpg"},
+    {"Name":"Kacper Stępień","Address":"http://03qwerty.cba.pl/index.html","img":"miniaturki/KacperStepien.jpg"},
+    {"Name":"Łukasz Szlósarczyk","Address":"http://szlos03.cba.pl/","img":"miniaturki/LukaszSzlosarczyk.jpg"},
+    {"Name":"Marcin Tarsa","Address":"http://marcintarsa.000webhostapp.com/","img":"miniaturki/MarcinTarsa.jpg"},
+    {"Name":"Miłosz Wrazidło","Address":"https://cister0.000webhostapp.com/index.html","img":"miniaturki/MiloszWrazidlo.jpg"}
+]
